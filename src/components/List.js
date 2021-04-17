@@ -16,8 +16,8 @@ const Cover = styled(Body)`
 align-items: flex-start;
 justify-content: center;
 min-height: 110px;
-
-@media only screen and (max-width: 650px){
+margin: 20px 0;
+@media only screen and (max-width: 770px){
 
     align-items: center;
 }

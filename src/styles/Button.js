@@ -6,7 +6,7 @@ height: 58px;
 max-width: 180px;
 width: 100%;
 background: ${colors.blue};
-border-radius: 10px;
+border-radius: 26px;
 color: ${colors.white};
 outline: none;
 border: none;
@@ -23,8 +23,9 @@ justify-content: center;
 transition: .4s ease-in;
 :hover{
     transition: .4s ease-in;
-    background: ${colors.lightBlue};
+    background: ${colors.white};
     color: ${colors.dark};
+ 
 }
 `
 
@@ -33,7 +34,7 @@ height: 58px;
 max-width: 180px;
 width: 100%;
 background: ${colors.white};
-border-radius: 10px;
+border-radius: 26px;
 color: ${colors.blue};
 outline: none;
 border: 1px solid  ${colors.blue};
@@ -60,11 +61,19 @@ height: 58px;
 max-width: 250px;
 width: 100%;
 background: ${colors.blue};
-border-radius: 10px;
+border-radius: 26px;
 color: ${colors.white};
 outline: none;
 border: none;
+font-family: "Usual Bold";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1;
 
+display: flex;
+justify-content: center;
+ align-items: center;
 transition: .4s ease-in;
 :hover{
     transition: .4s ease-in;
@@ -78,7 +87,7 @@ height: 58px;
 max-width: 250px;
 width: 100%;
 background: ${colors.white};
-border-radius: 10px;
+border-radius: 26px;
 color: ${colors.blue};
 outline: none;
 border: 1px solid  ${colors.blue};

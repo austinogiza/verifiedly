@@ -6,5 +6,6 @@ export const colors ={
     white : "#fff",
     black : "#000",
     offWhite: "#FAFAFA",
-    mildBlack : "rgba(19, 19, 19, 0.6)"
+    mildBlack : "rgba(19, 19, 19, 0.6)",
+    lightGreen : "#E4FCF3"
 }
