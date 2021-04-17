@@ -29,17 +29,17 @@ const Why = () => {
 <Section>
 <Sectionwrapper>
 <Sectioncover>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650200/Hearts_o37nxm.svg" text="99.98% reliability uptime since launch."/>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650200/Hearts-1_nlwrdl.svg" text="Fastest request and response rate in the industry."/>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650200/Hearts-2_djkyo3.svg" text="Built-in fraud detection systems for protection."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts_ctdyhw.png" text="99.98% reliability uptime since launch."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-1_pfh0nq.png" text="Fastest request and response rate in the industry."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-2_kvcdnq.png" text="Built-in fraud detection systems for protection."/>
 </Sectioncover>
 <Sectioncovermiddle>
     <MiddleImage src="https://res.cloudinary.com/austinogiza/image/upload/v1618650526/Rectangle_19_vaiqd1.jpg"/>
 </Sectioncovermiddle>
 <Sectioncover>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650199/Hearts-3_q8uu2j.svg" text="Advanced integrations with enterprise softwares."/>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650200/Hearts-4_a0pffj.svg" text="50% or more in savings compared to other services."/>
-<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618650199/Hearts-5_sgjlzn.svg" text="Fastest and friendliest customer support in the industry."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-3_bueorj.png" text="Advanced integrations with enterprise softwares."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-4_yrknqg.png" text="50% or more in savings compared to other services."/>
+<List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-5_r9ng1g.png" text="Fastest and friendliest customer support in the industry."/>
 </Sectioncover>
 </Sectionwrapper>
           </Section>
