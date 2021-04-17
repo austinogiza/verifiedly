@@ -5,6 +5,8 @@ import { colors } from '../styles/Color'
 import { FooterHead } from '../styles/TextStyles'
 import FooterList from './FooterList'
 import logo from '../images/logo.svg'
+import {AiOutlineTwitter, AiOutlineDribbble} from 'react-icons/ai'
+import {FiFacebook, FiGithub} from 'react-icons/fi'
 
 const Footer = () => {
     return (
@@ -80,7 +82,7 @@ const Footer = () => {
             <Love>
 
                 <Lovehead>
-                MADE WITH LOVE <Loveicon/>
+                MADE WITH LOVE <Loveicon src="https://res.cloudinary.com/austinogiza/image/upload/v1618675823/image_1770_pzwtn5.svg"/>
                 </Lovehead>
                 <Lovelogo>
                     <Logo src={logo}/>
@@ -171,14 +173,20 @@ grid-gap: 50px;
 @media only screen and (max-width: 650px){
     grid-template-columns: repeat(1,1fr);
     place-items: center;
-    grid-gap: 24px;
+    grid-gap: 32px;
 }
 `
 const Social = styled.div`
 width: 100%;
 display: flex;
 flex-direction: row;
+height: 100%;
+justify-content: flex-start;
+ align-items: center;
 
+ @media only screen and (max-width: 650px){
+    justify-content: center;
+}
 `
 const SocialCover = styled.div`
 width: 40px;
@@ -190,24 +198,31 @@ margin: 8px;
 justify-content: center;
  align-items: center;
  cursor: pointer;
+ transition: .4s ease-in;
+
+ :hover{
+    transition: .4s ease-in;
+     opacity: 1;
+     transform: translateY(-5px) scale(1.05);
+ }
 
 `
-const Twitter = styled.div`
+const Twitter = styled(AiOutlineTwitter)`
 width: 24px;
 height: 24px;
 color: ${colors.black};
 `
-const Facebook = styled.div`
+const Facebook = styled(FiFacebook)`
 width: 24px;
 height: 24px;
 color: ${colors.black};
 `
-const Github = styled.div`
+const Github = styled(FiGithub)`
 width: 24px;
 height: 24px;
 color: ${colors.black};
 `
-const Dribbble = styled.div`
+const Dribbble = styled(AiOutlineDribbble)`
 width: 24px;
 height: 24px;
 color: ${colors.black};
@@ -215,42 +230,81 @@ color: ${colors.black};
 
 const Copyright = styled.div`
 height: 17px;
-max-width: 250px;
+max-width: 300px;
 width: 100%;
+height: 100%;
 font-family: Usual;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 17px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 color: ${colors.white};
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
 `
 const Love = styled.div`
 width: 100%;
+height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-end;
+align-items: flex-start;
 color: ${colors.white};
+
+@media only screen and (max-width: 650px){
+    align-items: center;
+}
 `
 const Lovehead = styled.div`
 width: 100%;
+height: 100%;
 display: flex;
 flex-direction: row;
+font-family: "Usual Bold";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.3;
+margin:  0 0 32px 0;
+text-align: left;
+justify-content: flex-start;
+align-items: flex-start;
+@media only screen and (max-width: 650px){
+    text-align:  center;
+    align-items: center;
+    justify-content: center;
+}
 
 `
 const Loveicon = styled.img`
 width: 32px;
 height: 32px;
+margin: 0 0 0 21px;
 `
 const Lovelogo = styled.div`
 width: 100%;
+height: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: ${colors.white};
+
+@media only screen and (max-width: 650px){
+    align-items: center;
+}
 `
 const Logo = styled.img`
 height: 27px;
-max-width: 140px;
+
+@media only screen and (max-width: 650px){
+    max-width: 140px;
 width: 100%;
+margin: 0 auto;
+}
 `
 export default Footer

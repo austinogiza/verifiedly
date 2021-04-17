@@ -130,6 +130,10 @@ const Maintitle = styled(SectionHeader)`
 margin: 16px 0 24px 0;
 text-align: left;
 width: 100%;
+@media only screen and (max-width: 650px){
+    text-align: center;
+}
+
 
 span{
     color: ${colors.blue};

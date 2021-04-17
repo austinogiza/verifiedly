@@ -26,5 +26,11 @@ transition: .4s ease-in;
 
     color: ${colors.blue};
 }
+
+@media only screen and (max-width: 650px){
+   
+    text-align:  center;
+ 
+}
 `
 export default FooterList
