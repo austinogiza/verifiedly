@@ -190,8 +190,8 @@ align-items: center;
 `
 
 const Mobiletoggle = styled.div`
-position: absolute;
-top: 0;
+position: fixed;
+top: 3px;
 right: 10px;
 z-index: 40;
 width: 40px;
