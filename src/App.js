@@ -4,10 +4,12 @@ import Home from './pages/Home'
 import { GlobalStyles } from './styles/GlobalStyles'
 import Layout from './container/Layout'
 import ScrollRestore from  './components/ScrollRestore'
+import Top from './components/Top'
 const App = () => {
   return (
 <>
 <Router>
+<Top/>
   <GlobalStyles/>
   <ScrollRestore/>
 <Layout>

@@ -69,6 +69,11 @@ width: 100%;
 margin: 40px 0;
 justify-content: center;
  align-items: center;
+ @media only screen and (max-width: 380px){
+    flex-direction: row;
+    margin: 40px 0 56px 0;
+}
+
 `
 
 const Signup = styled(MainButton)`
@@ -76,12 +81,19 @@ margin: 0 20px;
 @media only screen and (max-width: 650px){
     margin: 0 8px;
 }
+
+@media only screen and (max-width: 380px){
+    margin: 8px 0;
+}
 `
 const Sales = styled(MainGhostButton)`
 margin: 0 20px;
 
 @media only screen and (max-width: 650px){
     margin: 0 8px;
+}
+@media only screen and (max-width: 380px){
+    margin: 8px 0;
 }
 `
 

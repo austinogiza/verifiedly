@@ -29,6 +29,9 @@ body{
     height: 100%;
   
 }
+html{
+  scroll-behavior: smooth;
+}
 li{
   list-style-type: none;
 }
