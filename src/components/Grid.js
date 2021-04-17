@@ -56,12 +56,23 @@ min-height: 1300px;
 `
 const Container = styled.div`
 
-width: 100%;
+@media only screen and (max-width: 4000px){
+    width: 100%;
+display: flex;
+flex-direction: column;
+max-width: 1500px;
+padding: 10px 15px;
+margin: 0 auto;
+}
+@media only screen and (max-width: 1400px){
+    width: 100%;
 display: flex;
 flex-direction: column;
 max-width: 95%;
 padding: 10px 15px;
 margin: 0 auto;
+}
+
 `
 const Layout = styled(GridLayout)`
 background: ${colors.lightBlue};

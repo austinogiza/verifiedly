@@ -39,11 +39,9 @@ font-weight: 400;
 line-height: 1.3;
 text-align: center;
 
-@media only screen and (max-width: 1100px){
-    font-size: 28px;
-}
+
 @media only screen and (max-width: 650px){
-    font-size: 21px;  
+    font-size: 28px;  
 }
 `
 export const PricingLight = styled.h1`
@@ -87,6 +85,18 @@ text-align: center;
 }
 
 `
+export const FooterHead = styled.h1`
+font-family: "Usual Bold";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5;
+text-align: center;
+@media only screen and (max-width: 650px){
+    font-size: 17px;  
+}
+
+`
 
 export const IconsHeader = styled.h1`
 font-family: "Usual Medium";
@@ -120,7 +130,7 @@ font-family: "Usual Light";
 font-size: 18px;
 font-style: normal;
 font-weight: 350;
-line-height: 1;
+line-height: 1.4;
 @media only screen and (max-width: 650px){
     font-size: 16px;  
 }

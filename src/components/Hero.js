@@ -4,12 +4,11 @@ import { Body, Image } from '../container/Body'
 import { MainButton, MainGhostButton } from '../styles/Button'
 import { colors } from '../styles/Color'
 import { BodyText, Header, SubHeader } from '../styles/TextStyles'
-import Navbar from './Navbar'
+
 
 const Hero = () => {
     return (
-      <Herocover>
-      <Navbar/>
+    <Herocover>
 <Titlesection>
 <Subtitle>Meet Verifiedly</Subtitle>
     <Title>Automate your identity verification</Title>
@@ -31,7 +30,7 @@ const Hero = () => {
 
 
 const Herocover = styled(Body)`
-height: 1177px;
+height: 1050px;
 width: 100%;
 background: ${colors.dark};
 justify-content: flex-end;

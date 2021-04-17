@@ -22,10 +22,15 @@ justify-content: center;
 
 transition: .4s ease-in;
 :hover{
+    border: 1px solid  ${colors.dark};
     transition: .4s ease-in;
     background: ${colors.white};
     color: ${colors.dark};
  
+}
+
+@media only screen and (max-width: 650px){
+    font-size: 16px;
 }
 `
 
@@ -43,13 +48,16 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 1;
-
+@media only screen and (max-width: 650px){
+    font-size: 16px;
+}
 display: flex;
 justify-content: center;
  align-items: center;
 
 transition: .4s ease-in;
 :hover{
+
     transition: .4s ease-in;
     background: ${colors.dark};
     color: ${colors.white};
@@ -76,6 +84,7 @@ justify-content: center;
  align-items: center;
 transition: .4s ease-in;
 :hover{
+    border: 1px solid  ${colors.dark};
     transition: .4s ease-in;
     background: ${colors.lightBlue};
     color: ${colors.dark};
