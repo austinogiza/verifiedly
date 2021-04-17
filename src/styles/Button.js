@@ -19,7 +19,7 @@ line-height: 1;
 display: flex;
 justify-content: center;
  align-items: center;
-
+ backface-visibility: hidden;
 transition: .4s ease-in;
 :hover{
     border: 1px solid  ${colors.dark};
@@ -51,6 +51,7 @@ line-height: 1;
 @media only screen and (max-width: 650px){
     font-size: 16px;
 }
+backface-visibility: hidden;
 display: flex;
 justify-content: center;
  align-items: center;
@@ -78,7 +79,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 1;
-
+backface-visibility: hidden;
 display: flex;
 justify-content: center;
  align-items: center;
@@ -94,6 +95,7 @@ transition: .4s ease-in;
 export const LargeGhostButton = styled.button`
 height: 58px;
 max-width: 250px;
+backface-visibility: hidden;
 width: 100%;
 background: ${colors.white};
 border-radius: 26px;
