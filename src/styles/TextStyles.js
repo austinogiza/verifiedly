@@ -14,6 +14,10 @@ text-align: center;
 @media only screen and (max-width: 650px){
     font-size: 32px;  
 }
+
+@media only screen and (max-width: 380px){
+    font-size: 28px;  
+}
 `
 export const SectionHeader = styled.h1`
 font-family: "Usual Bold";
@@ -29,6 +33,10 @@ text-align: center;
 @media only screen and (max-width: 650px){
     font-size: 28px;  
 }
+
+@media only screen and (max-width: 380px){
+    font-size: 24px;  
+}
 `
 
 export const PricingHeader = styled.h1`
@@ -43,6 +51,12 @@ text-align: center;
 @media only screen and (max-width: 650px){
     font-size: 28px;  
 }
+
+@media only screen and (max-width: 380px){
+    font-size: 24px;  
+}
+
+
 `
 export const PricingLight = styled.h1`
 font-family: "Usual Light";
@@ -82,6 +96,10 @@ line-height: 1.5;
 text-align: center;
 @media only screen and (max-width: 650px){
     font-size: 17px;  
+}
+
+@media only screen and (max-width: 380px){
+    font-size: 14px;  
 }
 
 `

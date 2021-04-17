@@ -37,7 +37,11 @@ justify-content: flex-end;
  align-items: center;
 
  @media only screen and (max-width: 650px){
-    height: 900px;
+    height: 880px;
+}
+
+@media only screen and (max-width: 380px){
+    min-height: 900px;
 }
 `
 const Titlesection = styled.div`
@@ -48,6 +52,7 @@ max-width: 670px;
 margin: 0 auto;
 width: 100%;
 padding: 10px 25px;
+
 `
 
 const Title = styled(Header)`
