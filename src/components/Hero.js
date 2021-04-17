@@ -70,7 +70,7 @@ margin: 40px 0;
 justify-content: center;
  align-items: center;
  @media only screen and (max-width: 380px){
-    flex-direction: row;
+    flex-direction: column;
     margin: 40px 0 56px 0;
 }
 
