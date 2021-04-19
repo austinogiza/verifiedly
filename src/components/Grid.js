@@ -61,7 +61,7 @@ const Container = styled.div`
 display: flex;
 flex-direction: column;
 max-width: 1500px;
-padding: 10px 15px;
+padding: 10px 16px;
 margin: 0 auto;
 }
 @media only screen and (max-width: 1400px){
@@ -69,7 +69,7 @@ margin: 0 auto;
 display: flex;
 flex-direction: column;
 max-width: 95%;
-padding: 10px 15px;
+padding: 10px 16px;
 margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@ const Layout = styled(GridLayout)`
 background: ${colors.lightBlue};
 padding: 30px;
 @media only screen and (max-width: 650px){
-    padding: 15px;
+    padding: 0px;
 }
 `
 
@@ -86,7 +86,7 @@ const GreenLayout = styled(GridLayout)`
 background: ${colors.lightGreen};
 padding: 30px;
 @media only screen and (max-width: 650px){
-    padding: 15px;
+    padding: 0px;
 }
 `
 const Wrapper = styled.div`
