@@ -78,7 +78,7 @@ const Layout = styled(GridLayout)`
 background: ${colors.lightBlue};
 padding: 30px;
 @media only screen and (max-width: 650px){
-    padding: 0px;
+    padding: 10px;
 }
 `
 
@@ -86,7 +86,7 @@ const GreenLayout = styled(GridLayout)`
 background: ${colors.lightGreen};
 padding: 30px;
 @media only screen and (max-width: 650px){
-    padding: 0px;
+    padding: 10px;
 }
 `
 const Wrapper = styled.div`
