@@ -89,13 +89,13 @@ text-align: center;
 
 export const BodyText = styled.p`
 font-family: "Usual Light";
-font-size: 24px;
+font-size: 18px;
 font-style: normal;
 font-weight: 350;
 line-height: 1.5;
 text-align: center;
 @media only screen and (max-width: 650px){
-    font-size: 17px;  
+    font-size: 16px;  
 }
 
 @media only screen and (max-width: 380px){
@@ -118,7 +118,7 @@ text-align: center;
 
 export const IconsHeader = styled.h1`
 font-family: "Usual Medium";
-font-size: 21px;
+font-size: 18px;
 font-style: normal;
 font-weight: 350;
 line-height: 1.5;

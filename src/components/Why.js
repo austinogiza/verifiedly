@@ -34,7 +34,7 @@ const Why = () => {
 <List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-2_kvcdnq.png" text="Built-in fraud detection systems for protection."/>
 </Sectioncover>
 <Sectioncovermiddle>
-    <MiddleImage src="https://res.cloudinary.com/austinogiza/image/upload/v1618650526/Rectangle_19_vaiqd1.jpg"/>
+    <MiddleImage src="https://res.cloudinary.com/austinogiza/image/upload/v1618823447/Rectangle_20_tyrmlx.jpg"/>
 </Sectioncovermiddle>
 <Sectioncover>
 <List image="https://res.cloudinary.com/austinogiza/image/upload/v1618675559/Hearts-3_bueorj.png" text="Advanced integrations with enterprise softwares."/>

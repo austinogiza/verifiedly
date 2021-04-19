@@ -20,7 +20,7 @@ const Hero = () => {
 </Herobutton>
 </Titlesection>
 <Heroimage>
-    <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1618621522/ezgif.com-gif-maker_svisq2.gif"/>
+<Image src="https://res.cloudinary.com/austinogiza/image/upload/v1618621522/ezgif.com-gif-maker_svisq2.gif"/>
 </Heroimage>
 
       </Herocover>
